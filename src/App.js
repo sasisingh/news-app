@@ -51,7 +51,7 @@ const App = () => {
 
                       <div class="col-lg-6">
                         <div class="position-relative mb-3">
-                          <img class="img-fluid w-100" src={item.urlToImage} style={{ "object-fit": "cover" }} />
+                          <img class="img-fluid w-100" src={item.urlToImage} style={{ "object-fit": "cover" }} alt='news' />
                           <div class="bg-white border border-top-0 p-4">
                             <div class="mb-2">
                               <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
