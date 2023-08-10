@@ -83,7 +83,7 @@ const App = () => {
                           <img class="img-fluid" src={item.urlToImage} alt="" height={"110px"} width={"110px"} />
                           <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
                             <div class="mb-2">
-                              <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href={item.url} target='_blank'>{item?.source?.name}</a>
+                              <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href={item.url} target='_blank' rel="noreferrer">{item?.source?.name}</a>
                               <a class="text-body" href={item.url} target='_blank'rel="noreferrer"><small>{item.publishedAt}</small></a>
                             </div>
                             <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href={item.url} target='_blank' rel="noreferrer">{item.title}</a>
