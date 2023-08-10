@@ -99,7 +99,7 @@ const App = () => {
         </div>
       </div>
       <div class="container-fluid py-4 px-sm-3 px-md-5" style={{ "background": "#111111" }}>
-        <p class="m-0 text-center">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.
+        <p class="m-0 text-center">&copy; <a href="/"> Your Site Name</a>. All Rights Reserved.
         </p>
       </div>
     </>
