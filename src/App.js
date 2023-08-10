@@ -55,10 +55,10 @@ const App = () => {
                           <div class="bg-white border border-top-0 p-4">
                             <div class="mb-2">
                               <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href={item.url} target='_blank'>{item?.source?.name}</a>
-                              <a class="text-body" href={item.url} target='_blank'><small>{item.publishedAt}</small></a>
+                                href={item.url} target='_blank' rel="noreferrer">{item?.source?.name}</a>
+                              <a class="text-body" href={item.url} target='_blank'rel="noreferrer"><small>{item.publishedAt}</small></a>
                             </div>
-                            <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href={item.url} target='_blank'>{item.title}</a>
+                            <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href={item.url} target='_blank' rel="noreferrer">{item.title}</a>
                             <p class="m-0">{item.description}</p>
                           </div>
 
@@ -84,9 +84,9 @@ const App = () => {
                           <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
                             <div class="mb-2">
                               <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href={item.url} target='_blank'>{item?.source?.name}</a>
-                              <a class="text-body" href={item.url} target='_blank'><small>{item.publishedAt}</small></a>
+                              <a class="text-body" href={item.url} target='_blank'rel="noreferrer"><small>{item.publishedAt}</small></a>
                             </div>
-                            <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href={item.url} target='_blank'>{item.title}</a>
+                            <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href={item.url} target='_blank' rel="noreferrer">{item.title}</a>
                           </div>
                         </div>
                       )
